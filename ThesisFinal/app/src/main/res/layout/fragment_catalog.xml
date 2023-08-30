@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/br_gray"
+    android:orientation="vertical"
+    android:id="@+id/catalog"
+    tools:context="com.example.pikmi85.thesisfinal.fragment.CatalogFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TableLayout
+        android:id="@+id/recordstable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:paddingTop="?actionBarSize"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/darkorange">
+
+        <TextView
+            android:text="@string/activity"
+            android:textColor="@color/black"
+            android:textSize="@dimen/records"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_column="1"
+            android:drawableStart="@drawable/ic_edit_black_24dp"/>
+        <TextView
+            android:text="@string/score"
+            android:textSize="@dimen/records"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:drawableStart="@drawable/ic_tag_faces_black_24dp"/>
+        <TextView
+            android:text="@string/timestamp"
+            android:textSize="@dimen/records"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:drawableStart="@drawable/ic_access_time_black_24dp"/>
+
+        </TableRow>
+        <TextView
+            android:id="@+id/norecords"
+            android:text="@string/norecord"
+            android:textSize="@dimen/records"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+    </TableLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_joingroup"
+        android:text="@string/joingroup"
+        android:textColor="@android:color/black"
+        android:background="@color/darkorange"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+
+
+</RelativeLayout>

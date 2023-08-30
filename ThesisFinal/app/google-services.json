@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "595946963410",
+    "firebase_url": "https://ezbio-98be1.firebaseio.com",
+    "project_id": "ezbio-98be1",
+    "storage_bucket": "ezbio-98be1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595946963410:android:a7704b07e13742b9",
+        "android_client_info": {
+          "package_name": "com.example.pikmi85.thesisfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595946963410-12l1m3gk2goq0hbom289d6tgu181uf3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk-BuELgvSDS9AnhjCwDEQYYFnx9Akplg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
